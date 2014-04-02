@@ -1,8 +1,10 @@
 
-
 public class FizzBuzz
 {
-
+	
+	/* 
+	 * Note I use Tabs instead of Spaces
+	*/
 	public static void main( String args[] )
 	{
 		String out = "";
@@ -39,7 +41,7 @@ public class FizzBuzz
 	private int doNothing( int foo, int bar )
 	{
 		if ( ( foo == 1 && bar == 1 ) 
-			|| ( foo == 2 && bar == 2 ) )
+		   || ( foo == 2 && bar == 2 ) )
 		{
 			return -1;
 		}
